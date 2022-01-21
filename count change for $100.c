@@ -4,12 +4,12 @@ int main()
 {
    int price = 0;
 
-    printf("请输入金额(元):");
+    printf("Please input the price($):\n");
     scanf("%d",&price);
 
     int change = 100 - price;
 
-    printf("找您%d元\n", change);
+    printf(Your change is $%d \n", change);
 
     return 0;
 }
