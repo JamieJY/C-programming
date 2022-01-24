@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{   
+    // comment
+    int price=0;
+    int bill=0;
+    
+    
+    //input
+    printf("Please input the price:\n");
+    scanf("%d",&price);
+    
+    printf("Please input the bille:\n");
+    scanf("%d",&bill);
+    
+    //output
+    if(bill>=price){
+          
+          printf("The change is %d.\n",bill-price);
+    
+    }
+   
+   
+   return 0;
+}
