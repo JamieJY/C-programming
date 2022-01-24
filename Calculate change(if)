@@ -18,6 +18,10 @@ int main()
           
           printf("The change is %d.\n",bill-price);
     
+    } else{
+    
+         printf("The bill is not enough\n"); 
+         
     }
    
    
