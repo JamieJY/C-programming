@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	int a,b;
+
+	printf("Please input 2 integers：");
+	scanf("%d %d", &a, &b);
+	
+	int max = b;
+	if ( a > b ) {
+		max = a;
+	}
+
+	printf("The big integer is %d\n", max);
+
+	return 0;
+}
