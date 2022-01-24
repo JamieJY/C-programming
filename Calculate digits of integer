@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int x;
+	int n=1;
+	
+	scanf("%d",&x);
+	
+	x=x/10;
+	while(x>0){
+		x=x/10;
+		n++;
+	}
+	printf("The digits of integer is %d\n",n);
+	
+	return 0;
+}
