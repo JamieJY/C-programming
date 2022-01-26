@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main()
+{
+	int utc;
+	int bjt;
+	
+	
+	scanf("%d",&bjt);
+	
+	if(0<=bjt<=2359){
+		
+		if(bjt>=800){
+			printf("utc is %d",bjt-800);
+		}else 
+		printf("utc is %d",bjt-800+2400);
+	}else
+	{
+		printf("please input correct time");
+	 } 
+	
+	return 0;
+	}
