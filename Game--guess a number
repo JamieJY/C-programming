@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+	srand(time(0));
+	//int a=rand();
+	
+	//printf("%d\n",a%100);
+	
+	int number=rand()%100+1;
+	int count=0;
+	int a=0;
+	
+	printf("I have already gotten a number\n");
+    do
+	{
+		printf("Guess a number\n");
+		scanf("%d",&a);
+		count++; 
+		if (a<number){
+			printf("Your number is smaller.\n");
+		}else if(a>number){
+			printf("Your number is bigger.\n");
+		}
+	
+	 } while(a!=number);
+	 
+	 printf("Great!You got the correct number in %d times\n",count);
+	 
+	 return 0;
+	
+}
